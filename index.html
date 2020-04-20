@@ -1,0 +1,354 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF8">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,800&display=swap&subset=cyrillic-ext" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Описание страницы для поисковиков google">
+    <meta name="keywords" content="Описание страницы для поисковиков yandex">
+    <!--Favicons-->
+    <!--./Favicons-->
+    <title>MintoMinimal</title>
+</head>
+
+<body>
+    <!--SPRITE добавляем спрайты для вставки и редактирования svg иконок-->
+    <svg style="display: none">
+        <symbol id="facbook" viewBox="0 0 96.124 96.123">
+            <g>
+                <path d="M72.089,0.02L59.624,0C45.62,0,36.57,9.285,36.57,23.656v10.907H24.037c-1.083,0-1.96,0.878-1.96,1.961v15.803
+                    c0,1.083,0.878,1.96,1.96,1.96h12.533v39.876c0,1.083,0.877,1.96,1.96,1.96h16.352c1.083,0,1.96-0.878,1.96-1.96V54.287h14.654
+                    c1.083,0,1.96-0.877,1.96-1.96l0.006-15.803c0-0.52-0.207-1.018-0.574-1.386c-0.367-0.368-0.867-0.575-1.387-0.575H56.842v-9.246
+                    c0-4.444,1.059-6.7,6.848-6.7l8.397-0.003c1.082,0,1.959-0.878,1.959-1.96V1.98C74.046,0.899,73.17,0.022,72.089,0.02z" />
+            </g>
+        </symbol>
+        <symbol id="twitter" viewBox="0 0 512 512">
+            <g>
+                <path d="M512,97.248c-19.04,8.352-39.328,13.888-60.48,16.576c21.76-12.992,38.368-33.408,46.176-58.016
+			c-20.288,12.096-42.688,20.64-66.56,25.408C411.872,60.704,384.416,48,354.464,48c-58.112,0-104.896,47.168-104.896,104.992
+			c0,8.32,0.704,16.32,2.432,23.936c-87.264-4.256-164.48-46.08-216.352-109.792c-9.056,15.712-14.368,33.696-14.368,53.056
+			c0,36.352,18.72,68.576,46.624,87.232c-16.864-0.32-33.408-5.216-47.424-12.928c0,0.32,0,0.736,0,1.152
+			c0,51.008,36.384,93.376,84.096,103.136c-8.544,2.336-17.856,3.456-27.52,3.456c-6.72,0-13.504-0.384-19.872-1.792
+			c13.6,41.568,52.192,72.128,98.08,73.12c-35.712,27.936-81.056,44.768-130.144,44.768c-8.608,0-16.864-0.384-25.12-1.44
+			C46.496,446.88,101.6,464,161.024,464c193.152,0,298.752-160,298.752-298.688c0-4.64-0.16-9.12-0.384-13.568
+			C480.224,136.96,497.728,118.496,512,97.248z" />
+            </g>
+        </symbol>
+        <symbol id="linkedid" viewBox="0 0 455 455">
+            <g>
+                <path d="M246.4,204.35v-0.665c-0.136,0.223-0.324,0.446-0.442,0.665H246.4z" />
+                <path style="fill-rule:evenodd;clip-rule:evenodd;" d="M0,0v455h455V0H0z M141.522,378.002H74.016V174.906h67.506V378.002z
+		 M107.769,147.186h-0.446C84.678,147.186,70,131.585,70,112.085c0-19.928,15.107-35.087,38.211-35.087
+		c23.109,0,37.31,15.159,37.752,35.087C145.963,131.585,131.32,147.186,107.769,147.186z M385,378.002h-67.524V269.345
+		c0-27.291-9.756-45.92-34.195-45.92c-18.664,0-29.755,12.543-34.641,24.693c-1.776,4.34-2.24,10.373-2.24,16.459v113.426h-67.537
+		c0,0,0.905-184.043,0-203.096H246.4v28.779c8.973-13.807,24.986-33.547,60.856-33.547c44.437,0,77.744,29.02,77.744,91.398V378.002
+		z" />
+            </g>
+        </symbol>
+    </svg>
+    <!--===================HEADER===================-->
+    <header class="header" id="header">
+        <!--Контейнер сетка-->
+        <div class="header_inner">
+                <!--Навигация-->
+                <nav class="nav" id="nav">
+                    <div class="nav_cursor">
+                        <div class="nav_content"></div>
+                        <a class="nav_link" href="#" data-scroll="#home">home</a>
+                    </div>
+                </nav>
+
+                <nav class="nav">
+                    <div class="nav_cursor">
+                        <div class="nav_content"></div>
+                        <a class="nav_link" href="#" data-scroll="#portfolio">portfolio</a>
+                    </div>
+                </nav>
+
+                <nav class="nav">
+                    <div class="nav_cursor">
+                        <div class="nav_content"></div>
+                        <a class="nav_link" href="#" data-scroll="#aboutus">about us</a>
+                    </div>
+                </nav>
+
+                <nav class="nav">
+                    <div class="nav_cursor">
+                        <div class="nav_content"></div>
+                        <a class="nav_link" href="#" data-scroll="#contact">contact</a>
+                    </div>
+                </nav>
+            </div>
+            <!--./header_inner-->
+        <div class="container">
+            
+            <div class="home">
+                <div class="bmain_left">
+                    <div class="home_title h1">
+                        <p>our strong</p>
+                        <p>organaisation</p>
+                    </div>
+                    <!--./home_title-->
+                    <div class="home_text">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod tempor incididunt ut labore et. ectetur adig ipis cing elit, sed do eiusmod tempor incididunt.</p>
+                    </div>
+                    <!--./home_text-->
+                    <div class="button">
+                    <a class="btn btn--long btn--red" href="#">Contact Us</a>
+                    </div>
+                </div>
+                <!--./bmain_left-->
+                <div class="bmain_right">
+                    <iframe class="video_blog" width="560" height="315" src="https://www.youtube.com/embed/i6Xmsw4qhAg?controls=0&amp;start=14" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <!--./bmain_right-->
+            </div>
+            <!--./home-->
+        </div>
+        <!--./container-->
+    </header>
+    <!--===================INTRO===================-->
+    <div class="intro">
+        <div class="container">
+            <div class="intro_inner">
+                <div class="bintro_left">
+                    <div class="bintro_left_title h2">
+                        <p>do you know we can provide for you ?</p>
+                    </div>
+                    <div class="home_text">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod tempor incididunt ut labore et.Lorem ni ipsum dolor sit amet, consectetur adipiscing elit, ed doi eiusmod tempor incididunt ut labore et.</p>
+                    </div>
+                    <!--./home_text-->
+                    <div class="button">
+                    <a class="btn2 btn2--long btn2--red" href="#">Learn More</a>
+                    </div>
+                </div>
+                <!--./bintro_left-->
+
+                <div class="bintro_right">
+                    <div class="services">
+                        <div class="services_inner">
+                            <div class="services_item">
+                                <div class="services_logo">
+                                    <img src="img/serv_logo1.png">
+                                </div>
+                                <p class="h3">Management</p>
+                                <p>Lorem ipsum dolor sitea amet, zixf conseit
+                                    adipi cing elit, seddi do eiusmod btdempor
+                                    in didunt utlae ore etioe.Lorem ipsum new
+                                    idolor
+                                </p>
+                            </div>
+
+                            <div class="services_item">
+                                <div class="services_logo">
+                                    <img src="img/serv_logo2.png">
+                                </div>
+                                <p class="h3">UI /UX Design</p>
+                                <p>Lorem ipsum dolor sitea amet, zixf conseit adipi cing elit, seddi do eiusmod btdempor in didunt utlae ore etioe.Lorem ipsum new idolor sit amet
+                                </p>
+                            </div>
+
+
+                            <div class="services_item">
+                                <div class="services_logo">
+                                    <img src="img/serv_logo3.png">
+                                </div>
+                                <p class="h3">Logo / Branding</p>
+                                <p>Lorem ipsum dolor sitea amet, zixf conseit adipi cing elit, seddi do eiusmod btdempor in didunt utlae ore etioe.Lorem ipsum new idolor sit amet
+                                </p>
+                            </div>
+
+                            <div class="services_item">
+                                <div class="services_logo">
+                                    <img src="img/serv_logo4.png">
+                                </div>
+                                <p class="h3">Animation</p>
+                                <p>Lorem ipsum dolor sitea amet, zixf conseit adipi cing elit, seddi do eiusmod btdempor in didunt utlae ore etioe.Lorem ipsum new idolor sit amet
+                                </p>
+                            </div>
+
+                        </div>
+                        <!--./services_inner-->
+                    </div>
+                    <!--./services-->
+                </div>
+                <!--./bintro_right-->
+            </div>
+            <!--./intro_inner-->
+            <div class="intro_line"></div>
+        </div>
+        <!--./container-->
+    </div>
+    <!--./intro-->
+    <!--===================PORTFOLIO===================-->
+    <div class="portfolio">
+        <div class="container">
+            <div class="portfolio_title">
+                <div class="h2">feature products</div>
+            </div>
+            <!--./portfolio_title-->
+            <div class="portfolio_text">
+                <p>Lorem ipsum dolor sit amet, consectetur adipis cing elit,sed do eiusmod tempor incididunt ut labore et.</p>
+            </div>
+            <!--./portfolio_text-->
+
+            <div class="portfolio_line"></div>
+
+            <div class="feauters">
+                <div class="feauters_title">
+                    <nav class="feauters_nav" id="feauters_nav">
+                        <a class="feauters_link" href="#" data-scroll="#all">ALL</a>
+                    </nav>
+
+                    <nav class="feauters_nav" id="feauters_nav">
+                        <a class="feauters_link" href="#" data-scroll="#print_tmp">print template</a>
+                    </nav>
+
+                    <nav class="feauters_nav" id="feauters_nav">
+                        <a class="feauters_link" href="#" data-scroll="#web_tmp">web template</a>
+                    </nav>
+
+                    <nav class="feauters_nav" id="feauters_nav">
+                        <a class="feauters_link" href="#" data-scroll="#user_int">user interface</a>
+                    </nav>
+
+                    <nav class="feauters_nav" id="feauters_nav">
+                        <a class="feauters_link" href="#" data-scroll="#mock-up">mock-up</a>
+                    </nav>
+
+                </div>
+                <!--./feauters_title-->
+                <div class="feauters_maket">
+
+                    <div class="feauters_item">
+                        <img src="img/Layer%203.png">
+                    </div>
+
+                    <div class="feauters_item">
+                        <img src="img/Layer%203.png">
+                    </div>
+
+                    <div class="feauters_item">
+                        <img src="img/Layer%203.png">
+                    </div>
+
+                    <div class="feauters_item">
+                        <img src="img/Layer%203.png">
+                    </div>
+
+                    <div class="feauters_item">
+                        <img src="img/Layer%203.png">
+                    </div>
+
+                    <div class="feauters_item">
+                        <img src="img/Layer%203.png">
+                    </div>
+
+                    <div class="feauters_item">
+                        <img src="img/Layer%203.png">
+                    </div>
+
+                    <div class="feauters_item">
+                        <img src="img/Layer%203.png">
+                    </div>
+
+                </div>
+                <!--./feauters_maket-->
+            </div>
+            <!--./feauters-->
+        </div>
+        <!--./container-->
+    </div>
+    <!--./portfolio-->
+    <!--===================ABOUT US===================-->
+    <div class="about" id="about">
+        <div class="container">
+            <div class="meet_team">
+                <div class="team_teatle h2">Meet our team</div>
+                <!--./team_teatle-->
+                <div class="team_text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed dooing eiusmod tempor incididut labore Ui / Ux , print template.</p>
+                </div>
+                <!--./team_text-->
+            </div>
+            <!--./meet_team-->
+
+            <div class="team_line"></div>
+            <!--./team_line-->
+            <div class="team">
+                <div class="team_photo">
+                    <img class="big_photo" src="img/vzardini.png">
+                </div>
+                <!--./team_photo-->
+                <div class="team_lead">
+                    <div class="photo_title h4">mark waugh</div>
+                    <!--./photo_title-->
+                    <div class="photo_text">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed dooing eiusmod tempor </p>
+                        <p>incididut labore Ui / Ux , print template.</p>
+                    </div>
+                    <!--./photo_text-->
+                    <div class="social">
+                        <div class="social">
+                            <a class="social_item" href="#" target="_blank">
+                                <svg class="social_icon">
+                                    <use xlink:href="#facbook"></use>
+                                </svg>
+                            </a>
+
+                            <a class="social_item" href="#" target="_blank">
+                                <svg class="social_icon">
+                                    <use xlink:href="#twitter"></use>
+                                </svg>
+                            </a>
+
+                            <a class="social_item" href="#" target="_blank">
+                                <svg class="social_icon">
+                                    <use xlink:href="#linkedid"></use>
+                                </svg>
+                            </a>
+
+                        </div>
+                    </div>
+                    <!--./social-->
+                    <div class="team_lead_photo">
+                        <div class="team_lead_photo_inner">
+                            <img src="img/team_01.jpg">
+                        </div>
+                        <div class="team_lead_photo_inner">
+                            <img src="img/team_02.jpg">
+                        </div>
+                        <div class="team_lead_photo_inner">
+                            <img src="img/team_03.jpg">
+                        </div>
+                        <div class="team_lead_photo_inner">
+                            <img src="img/team_04.jpg">
+                        </div>
+
+                    </div>
+                </div>
+                <!--./team_lead-->
+            </div>
+        </div>
+        <!--./container-->
+    </div>
+    <!--./about-->
+    <!--===================CONTACTS===================-->
+    <div class="contacts" id="contacts">
+        <div class="container">
+            <div class="contacts_title"></div>
+            <!--contacts_title-->
+            <div class="contacts_text"></div>
+            <!--contacts_text-->
+            <div class="email_form"></div>
+            <!--email_form-->
+        </div>
+        <!--./container-->
+    </div>
+    <!--./contacts-->
+</body>
+
+</html>
